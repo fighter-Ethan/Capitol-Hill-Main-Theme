@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');  
+
+div#header h1 span {
+  font-size: 0;
+}
+
+div#header {
+  background: url(/local--files/theme:main-theme-1/CH_Logo.png) top center no-repeat;
+  background-size: 100px 100px;
+}
+
+div#container-wrap {
+  background: url(/local--files/theme:main-theme-1/CH.png) top center no-repeat;
+  background-size: 1400px 190px;
+  width: 1400px;
+  max-width: 1400px;
+  height: 190px;
+  max-height: 190px;
+  margin: 0px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+  object-fit: cover;
+}
+
+div#content-wrap {
+  background-color: lightgray;
+}
+
+div#header h1 a:before {
+  content: "Capitol Hill";
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bold;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  text-shadow: 3px 3px 5px #000;
+  color: white;
+  vertical-align: baseline;
+}
+
+div#header h2 span {
+  position: absolute;
+  display: block;
+  text-align: center;
+  top: 65%;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000;
+  vertical-align: text-top;
+}
+
+div#top-bar {
+  top: 150px;
+  left: 100px;
+}
+
+div#top-bar ul {
+  display: block;
+  position: absolute;
+}
+
+div#top-bar ul a:hover{
+  color: black;
+  background-color: #eee;
+}
+
+div#page-title, div#page-content {
+  display: block;
+  position: relative;
+  top: 20px;
+  color: black;
+}
+
+div#search-top-box {
+  display: inline;
+  position: relative;
+  left: 250px;
+  top: 10px;
+}
+
+div#login-status {
+  display: inline;
+  position: relative;
+  left: 600px;
+  top: -10px;
+}
+
+div#breadcrumbs {
+  visibility: hidden;
+}
+
+h1, h2 {
+  color: black;
+}
+
+div#toc {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+div#toc a, div.page-tags a, div#page-options-bottom a, div#page-options-bottom-2 a, div.page-watch-options a, div#license-area a {
+  color: blue;
+  text-decoration: none;
+}
+
+div#toc a:hover, div.page-tags a:hover, div#page-options-bottom a:hover, div#page-options-bottom-2 a:hover, div.page-watch-options a:hover, div#license-area a:hover {
+  text-decoration: none;
+  color: darkblue;
+  background-color: transparent;
+}
